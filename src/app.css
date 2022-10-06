@@ -1,0 +1,43 @@
+body {
+  
+  background: rgb(104, 13, 13);
+  color: white;
+}
+
+.character {
+  
+  background: rgb(10, 200, 13);
+  color: rgb(207, 23, 23);
+  border-radius: 5px;
+}
+
+.character img {
+  border-radius: 5px, 5px, 0, 0 ;
+
+}
+
+.title {
+  font-size: size 2.7rem;
+  font-weight: bolder;
+  text-align: center;
+
+
+}
+
+.container {
+  max-width: 1200px;
+  background: yellow;
+  margin: auto;
+}
+
+.btns {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr );
+  gap: 1rem;
+}
