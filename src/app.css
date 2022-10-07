@@ -1,18 +1,19 @@
 body {
-  
+
   background: rgb(104, 13, 13);
   color: white;
 }
 
-.character {
-  
+.coin {
+
   background: rgb(10, 200, 13);
   color: rgb(207, 23, 23);
   border-radius: 5px;
 }
 
-.character img {
-  border-radius: 5px, 5px, 0, 0 ;
+.coin img {
+  border-radius: 5px, 5px, 0, 0;
+  width: 60px;
 
 }
 
@@ -38,6 +39,6 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat( 4, 1fr );
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
